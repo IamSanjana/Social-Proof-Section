@@ -1,0 +1,184 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+    <title>
+        Social Proof 
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+   
+
+    <style type="text/css" >
+
+        section{ display: grid;
+                 margin: auto;
+                 margin-top: 30px;
+                 width: 85%;
+                 text-align: center;
+                 font-family: 'Rubik', sans-serif;}     
+
+        .intro {text-align: left; 
+                padding-left: 4%;}
+            
+        h1 {color: hsl(300, 43%, 22%);
+            font-size: 45px;
+            margin-bottom: 5%; 
+            font-weight: 700;}
+
+        span{font-size: 50px; }    
+           
+        .intro p { color: hsl(0, 3%, 19%);
+            font-size: 15px;
+            font-weight: 500; }  
+
+        .rating {display:grid;
+                 padding: 4%;
+                 margin-top: 5px;}
+                 
+        .rating div img { width: 15px; height:  15px;
+                          margin-top: 5%; 
+                          margin-right: 1%;}
+
+        h4 {margin-left: 5%;}
+
+        .r {display: inline-flex;}
+                    
+        .rg {display: inline-flex;}
+        
+        .bt {display: inline-flex;}
+                       
+        .feedback {color: whitesmoke;
+                   padding: 1%;}
+
+        .feedback div {display: block;
+                       background-color: hsl(300, 43%, 22%);
+                       text-align: left;
+                       padding-top: 2%;
+                       border-radius: 20px;}
+       
+        .feedback img {border-radius: 50%; margin-left: 20%; margin-right: 10%;
+                       float: left;} 
+
+        h5 {margin-bottom: 0; margin-top: 10%; }
+
+        .user {font-size: 13px;
+               margin-top: 0;
+               color: hsl(333, 76%, 72%);
+               font-weight: 300;} 
+
+        .review {display:grid;
+                margin-top: 10%;
+                margin-bottom: 15%;
+                text-align: center; 
+                font-size: 15px;
+                }  
+
+       @media  screen and (min-width:600px){
+        .one { display: inline-flex; justify-content: flex-start;}
+
+        .intro {  width: 45%;}
+
+        .rating { width: 35%;}
+        .r  {justify-content:flex-start;}
+        .rg {justify-content:center;}
+        .bt {justify-content:flex-end;}
+
+        .feedback { display:inline-flex; 
+                   justify-content: space-evenly;}
+
+        .feedback div {width:30%;
+                       height:65%;} 
+
+        .a{ margin-top: 3%;}
+        .c{ margin-top: 5%;}
+        .i{ margin-top: 7%;}                      
+
+       }        
+         
+
+       @media  screen and (max-width:599px) {
+        .one {display: grid; margin: auto;}
+
+        .intro {  width: 85%;}
+
+        .rating { width: 85%;}
+        
+        .rating div {justify-content: center}
+       
+        .feedback div { margin:auto;
+                        width:80%;
+                        height:30%; 
+                        margin-top: 10%; margin-bottom: 20%;} 
+       }                      
+
+    </style>
+
+
+    <body >
+        <section>
+        <div class="one">
+        <div class="intro">
+            <h1><span>10,000+</span> of our users<br> love our products.</h1>
+            <p> We only provide great products combined with<br>
+                excellent customer services.See what our satisfied <br>
+                customers have to say about our services.
+            </p>
+        </div>
+
+        <div class="rating">
+            <div class="r"> <img src="icon-star.svg"> <img src="icon-star.svg"> <img src="icon-star.svg"> <img src="icon-star.svg"> <img src="icon-star.svg"> 
+                  <h4>Rated 5 Stars in Reviews</h4>
+            </div>
+
+            <div class="rg"> <img src="icon-star.svg"> <img src="icon-star.svg"> <img src="icon-star.svg"> <img src="icon-star.svg"> <img src="icon-star.svg"> 
+                  <h4>Rated 5 Stars in Report Guru</h4>
+            </div>
+
+            <div class="bt"> <img src="icon-star.svg"> <img src="icon-star.svg"> <img src="icon-star.svg"> <img src="icon-star.svg"> <img src="icon-star.svg"> 
+                  <h4>Rated 5 Stars in BestTech</h4>
+            </div>
+        </div>
+        </div>
+
+        <div class="feedback">
+            <div class="a"><img src="image-anne.jpg"> 
+                    <h5 class="name">Anne Wallace</h5>
+                    <h5 class="user">Verified Buyer</h5>
+                  
+                <p class="review">"Extremely pleased with the high-standard <br>
+                                  product and services. Will definitely use<br>
+                                  use them again and recommend to <br>
+                                  everyone!"
+                                  
+                </p>
+          </div>
+
+          <div class="c"></divclass> <img src="image-colton.jpg"> 
+                   <h5 class="name">Colton Smith</h5>
+                   <h5 class="user">Verified Buyer</h5>
+               
+                <p class="review"> "We needed the same printed designs as we<br>
+                                    had ordered one week prior. Not only<br>
+                                    did they find the original order, but<br>
+                                    we received it on time too. Excellent!"
+
+                </p>
+            </div>
+
+          <div class="i"> <img src="image-irene.jpg"> 
+                   <h5 class="name">Irene Roberts</h5>
+                   <h5 class="user">Verified Buyer</h5>
+                
+                <p class="review">"Customer services are marvelously quick <br>
+                                   and efficient. Completely delighted with <br>
+                                   the simplicity of the purchase and the <br>
+                                   speed of delivery."
+                </p>
+         </div>
+
+        </div>
+    </section>    
+    </body>
+</head>
